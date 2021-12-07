@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Villajuan Burillo</title>
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="cssfontAwesone/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="principal__boton">
+            <button class="hamburger hamburger--emphatic boton__hamburguesa" type="button">
+                <span class="hamburger-box" >
+                <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+        
+        <header class="principal__menu" id="btn-menu">
+            <div class="principal__menu-enlaces">
+                <a href="#inicio" class="enlaces">Inicio</a>
+                <a href="#proyectos" class="enlaces">Proyectos</a>
+                <a href="#conocimientos" class="enlaces">Conocimientos</a>
+                <a href="#contacto" class="enlaces">Contacto</a>
+                <a href="#" class="enlaces">Blog</a>
+            </div>
+        </header>
+    </div>
+
+
+    <section class="principio" id="inicio">
+        <nav class="principio__nav">
+            <div class="principio__nav-nav">
+                <i class="fas fa-dragon"></i>
+                <h1 class="blanco nombre-portafolio">Villajuan</h1>    
+            </div>
+        </nav>
+        <div class="inicio contenedor animate__animated animate__backInDown">
+            <div class="inicio__texto">
+                <h1 class="inicio__texto-titulo blanco">Oh Hola, me llamo Ricardo Villajuan</h1>
+                
+                <p class="inicio__texto-texto">Estudiante universitario terminando el 8vo de la carrera de Ingenieria Informatica con conocimientos en tanto en el Front-End como en el Back-End</p>
+                
+                <div class="inicio__botones">
+                    <a class="inicio__botones-mi blanco" href="">SOBRE MI</a>
+                    <a class="inicio__botones-proyectos blanco" href="">PROYECTOS</a>
+                </div>
+            </div>
+            <div class="conte">
+                <div id="carouselExampleInterval" class="inicio__carrusel carousel slide" data-ride="carousel">
+                    <div class="carousel-inner inicio__carrusel-caja">
+                        <div class="carousel-item active carr" data-interval="1900">
+                            <img src="img/htmlcss.jpg" class="img-carrusel d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="1900">
+                            <img src="img/js.jpg" class="img-carrusel d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="1900">
+                            <img src="img/boo.jpg" class="img-carrusel d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="1900">
+                            <img src="img/javita.jpg" class="img-carrusel d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="1900">
+                            <img src="img/Frame 5.jpg" class="img-carrusel d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="1900">
+                            <img src="img/sqll.jpg" class="img-carrusel d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="boton-carrusel carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="boton-carrusel carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            
+
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 200" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 255, 255, 0.21)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 0.15)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,0L34.3,16.7C68.6,33,137,67,206,73.3C274.3,80,343,60,411,63.3C480,67,549,93,617,103.3C685.7,113,754,107,823,100C891.4,93,960,87,1029,73.3C1097.1,60,1166,40,1234,43.3C1302.9,47,1371,73,1440,83.3C1508.6,93,1577,87,1646,90C1714.3,93,1783,107,1851,113.3C1920,120,1989,120,2057,100C2125.7,80,2194,40,2263,40C2331.4,40,2400,80,2469,106.7C2537.1,133,2606,147,2674,126.7C2742.9,107,2811,53,2880,50C2948.6,47,3017,93,3086,116.7C3154.3,140,3223,140,3291,120C3360,100,3429,60,3497,46.7C3565.7,33,3634,47,3703,70C3771.4,93,3840,127,3909,146.7C3977.1,167,4046,173,4114,160C4182.9,147,4251,113,4320,103.3C4388.6,93,4457,107,4526,116.7C4594.3,127,4663,133,4731,136.7C4800,140,4869,140,4903,140L4937.1,140L4937.1,200L4902.9,200C4868.6,200,4800,200,4731,200C4662.9,200,4594,200,4526,200C4457.1,200,4389,200,4320,200C4251.4,200,4183,200,4114,200C4045.7,200,3977,200,3909,200C3840,200,3771,200,3703,200C3634.3,200,3566,200,3497,200C3428.6,200,3360,200,3291,200C3222.9,200,3154,200,3086,200C3017.1,200,2949,200,2880,200C2811.4,200,2743,200,2674,200C2605.7,200,2537,200,2469,200C2400,200,2331,200,2263,200C2194.3,200,2126,200,2057,200C1988.6,200,1920,200,1851,200C1782.9,200,1714,200,1646,200C1577.1,200,1509,200,1440,200C1371.4,200,1303,200,1234,200C1165.7,200,1097,200,1029,200C960,200,891,200,823,200C754.3,200,686,200,617,200C548.6,200,480,200,411,200C342.9,200,274,200,206,200C137.1,200,69,200,34,200L0,200Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 255, 255, 0.36)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 0.37)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,180L34.3,166.7C68.6,153,137,127,206,96.7C274.3,67,343,33,411,30C480,27,549,53,617,80C685.7,107,754,133,823,143.3C891.4,153,960,147,1029,133.3C1097.1,120,1166,100,1234,86.7C1302.9,73,1371,67,1440,66.7C1508.6,67,1577,73,1646,76.7C1714.3,80,1783,80,1851,93.3C1920,107,1989,133,2057,130C2125.7,127,2194,93,2263,76.7C2331.4,60,2400,60,2469,70C2537.1,80,2606,100,2674,116.7C2742.9,133,2811,147,2880,153.3C2948.6,160,3017,160,3086,163.3C3154.3,167,3223,173,3291,160C3360,147,3429,113,3497,90C3565.7,67,3634,53,3703,66.7C3771.4,80,3840,120,3909,133.3C3977.1,147,4046,133,4114,136.7C4182.9,140,4251,160,4320,150C4388.6,140,4457,100,4526,96.7C4594.3,93,4663,127,4731,126.7C4800,127,4869,93,4903,76.7L4937.1,60L4937.1,200L4902.9,200C4868.6,200,4800,200,4731,200C4662.9,200,4594,200,4526,200C4457.1,200,4389,200,4320,200C4251.4,200,4183,200,4114,200C4045.7,200,3977,200,3909,200C3840,200,3771,200,3703,200C3634.3,200,3566,200,3497,200C3428.6,200,3360,200,3291,200C3222.9,200,3154,200,3086,200C3017.1,200,2949,200,2880,200C2811.4,200,2743,200,2674,200C2605.7,200,2537,200,2469,200C2400,200,2331,200,2263,200C2194.3,200,2126,200,2057,200C1988.6,200,1920,200,1851,200C1782.9,200,1714,200,1646,200C1577.1,200,1509,200,1440,200C1371.4,200,1303,200,1234,200C1165.7,200,1097,200,1029,200C960,200,891,200,823,200C754.3,200,686,200,617,200C548.6,200,480,200,411,200C342.9,200,274,200,206,200C137.1,200,69,200,34,200L0,200Z"></path><defs><linearGradient id="sw-gradient-2" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 100px); opacity:0.8" fill="url(#sw-gradient-2)" d="M0,100L34.3,86.7C68.6,73,137,47,206,33.3C274.3,20,343,20,411,33.3C480,47,549,73,617,86.7C685.7,100,754,100,823,96.7C891.4,93,960,87,1029,80C1097.1,73,1166,67,1234,76.7C1302.9,87,1371,113,1440,106.7C1508.6,100,1577,60,1646,46.7C1714.3,33,1783,47,1851,63.3C1920,80,1989,100,2057,90C2125.7,80,2194,40,2263,36.7C2331.4,33,2400,67,2469,90C2537.1,113,2606,127,2674,123.3C2742.9,120,2811,100,2880,93.3C2948.6,87,3017,93,3086,100C3154.3,107,3223,113,3291,116.7C3360,120,3429,120,3497,130C3565.7,140,3634,160,3703,163.3C3771.4,167,3840,153,3909,130C3977.1,107,4046,73,4114,70C4182.9,67,4251,93,4320,103.3C4388.6,113,4457,107,4526,116.7C4594.3,127,4663,153,4731,136.7C4800,120,4869,60,4903,30L4937.1,0L4937.1,200L4902.9,200C4868.6,200,4800,200,4731,200C4662.9,200,4594,200,4526,200C4457.1,200,4389,200,4320,200C4251.4,200,4183,200,4114,200C4045.7,200,3977,200,3909,200C3840,200,3771,200,3703,200C3634.3,200,3566,200,3497,200C3428.6,200,3360,200,3291,200C3222.9,200,3154,200,3086,200C3017.1,200,2949,200,2880,200C2811.4,200,2743,200,2674,200C2605.7,200,2537,200,2469,200C2400,200,2331,200,2263,200C2194.3,200,2126,200,2057,200C1988.6,200,1920,200,1851,200C1782.9,200,1714,200,1646,200C1577.1,200,1509,200,1440,200C1371.4,200,1303,200,1234,200C1165.7,200,1097,200,1029,200C960,200,891,200,823,200C754.3,200,686,200,617,200C548.6,200,480,200,411,200C342.9,200,274,200,206,200C137.1,200,69,200,34,200L0,200Z"></path></svg>
+    </section>
+    <section class="proyectos contenedor" id="proyectos">
+        <h1 class="proyectos__titulo">MIS PROYECTOS PERSONALES</h1>
+        <p class="proyectos-parrafo">Algunos de mis proyectos que fui desarrollando a lo largo de mi carrera profesional, proyectos donde abarco la parte Front-End como Back-End</p>
+        <div class="caja__tarjetas">
+
+
+            <div class="tarjetas">
+                <div class="tarjetas_contene">
+                    <div class="tarjetas__img">
+                        <img class="tarjetas__img-img" src="img/fondo.png" alt="">
+                    </div>
+                    <div class="tarjetas__info">
+                        <h1 class="tarjetas__info-titulo">Primer portafolio de proyectos</h1>
+                        <p class="tarjetas__info-sitio">SITIO WEB</p>
+                        <p class="tarjetas__info-info">Este sitio web era mi primer portafolio de trabajos donde queria publicar todos mos proyectos, luego decidi realizar otro portafolio un poco mas amigable.</p>
+                    </div>
+                    <div class="tarjetas__tecnologias">
+                        <div class="tecnologias">
+                            <!--<div class="tecnologias__img">
+                                <img class="tecnologias__img-img" src="img/mifoto.jpg" alt="">
+                            </div>-->
+                            <div class="tecnologias__titulo">
+                                <p class="tecnologias__titulo-titulo">TECNOLOGIAS APLICADAS</p>
+                            </div>
+                            <div class="tecnologias__iconos">
+                                <i class="html fab fa-html5"></i>
+                                <i class="css fab fa-css3-alt"></i>
+                                <i class="js fab fa-js-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta__delante">
+                    <div class="tarjeta__delante-caja">
+                        <h1 class="tarjeta__delante-h1">Link del repositorio en github</h1>
+                        <br>
+                        <div class="tarjeta__centrar">
+                            <a class="tarjeta__delante-link" href="https://ricardovillajuan.github.io/PrimerPortafolio/">Link</a>
+                        </div>
+                    </div>
+                     
+                </div>
+            </div>
+            <div class="tarjetas">
+                <div class="tarjetas_contene">
+                    <div class="tarjetas__img">
+                        <img class="tarjetas__img-img" src="img/Frame 10.jpg" alt="">
+                    </div>
+                    <div class="tarjetas__info">
+                        <h1 class="tarjetas__info-titulo">Intranet</h1>
+                        <p class="tarjetas__info-sitio">SISTEMA WEB</p>
+                        <p class="tarjetas__info-info">El sistema de intranet a sido un proyecto personal que estuve desarrollando, le puse como ejemplo al colegio Ventura CCalamaqui de Huacho, Este sistema aun esta en 
+                            proceso de desarrollo.
+                        </p>
+                    </div>
+                    <div class="tarjetas__tecnologias">
+                        <div class="tecnologias">
+                            <!--<div class="tecnologias__img">
+                                <img class="tecnologias__img-img" src="img/mifoto.jpg" alt="">
+                            </div>-->
+                            <div class="tecnologias__titulo">
+                                <p class="tecnologias__titulo-titulo">TECNOLOGIAS APLICADAS</p>
+                            </div>
+                            <div class="tecnologias__iconos">
+                                <i class="html fab fa-html5"></i>
+                                <i class="css fab fa-css3-alt"></i>
+                                <i class="js fab fa-js-square"></i>
+                                <i class="java fab fa-java"></i>
+                                <i class="sql fas fa-database"></i>
+                                <i class="bootstrap fab fa-bootstrap"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta__delante">
+                    <div class="tarjeta__delante-caja">
+                        <h1 class="tarjeta__delante-h1">Link del repositorio en github</h1>
+                        <br>
+                        <div class="tarjeta__centrar">
+                            <a class="tarjeta__delante-link" href="#">Link</a>
+                        </div>
+                    </div>
+                     
+                </div>
+            </div>
+            <div class="tarjetas">
+                <div class="tarjetas_contene">
+                    <div class="tarjetas__img">
+                        <img class="tarjetas__img-img" src="img/Frame 9.png" alt="">
+                    </div>
+                    <div class="tarjetas__info">
+                        <h1 class="tarjetas__info-titulo">Primer portafolio de proyectos</h1>
+                        <p class="tarjetas__info-sitio">PAGINA WEB</p>
+                        <p class="tarjetas__info-info">Esta pagina web es uno de varios proyectos web que he realizado a lo largo de mis años de estudio, ademas es responsive, es decir que se adapta a cualquier resolucion de pantalla</p>
+                    </div>
+                    <div class="tarjetas__tecnologias">
+                        <div class="tecnologias">
+                            <!--<div class="tecnologias__img">
+                                <img class="tecnologias__img-img" src="img/mifoto.jpg" alt="">
+                            </div>-->
+                            <div class="tecnologias__titulo">
+                                <p class="tecnologias__titulo-titulo">TECNOLOGIAS APLICADAS</p>
+                            </div>
+                            <div class="tecnologias__iconos">
+                                <i class="html fab fa-html5"></i>
+                                <i class="css fab fa-css3-alt"></i>
+                                <i class="js fab fa-js-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta__delante">
+                    <div class="tarjeta__delante-caja">
+                        <h1 class="tarjeta__delante-h1">Link del repositorio en github</h1>
+                        <br>
+                        <div class="tarjeta__centrar">
+                            <a class="tarjeta__delante-link" href="https://ricardovillajuan.github.io/pagina-dog/">Link</a>
+                        </div>
+                    </div>
+                     
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="conocimientos contenedor" id="conocimientos">
+        <h1 class="conocimientos__titulo">CONOCIMIENTOS</h1>
+        <p class="conocimientos-parrafo">A lo largo de mi carrera profesional en la universidad e estado aprendiendo diferentes tecnologias que abarca tanto en el Front-End como en el Back-End para el desarrollo de software.
+            Las tecnologias donde tengo conocimientos son las siguientes: 
+        </p>
+
+        <div class="conocimientos__caja">
+            <div class="conocimientos__front">
+                <h1 class="conocimientos__h1">Front-End</h1>
+                <div class="conocimientos__iconos">
+                    <div class="conocimientos__boton">
+                        <i class="icon conocimientos__html fab fa-html5"></i>
+                        <p class="">HTML</p>
+                    </div>
+                    <div class="conocimientos__boton">
+                        <i class="icon conocimientos__css fab fa-css3-alt"></i>
+                        <p class="">CSS</p>
+                    </div>
+                    <div class="conocimientos__boton">
+                        <i class="icon conocimientos__js fab fa-js-square"></i>
+                        <p class="">JAVASCRIPT</p>
+                    </div>
+                    <div class="conocimientos__boton">
+                        <i class="icon conocimientos__bootstrap fab fa-bootstrap"></i>
+                        <p class="">BOOTSTRAP</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="conocimientos__servidor">
+                <div class="conocimientos__back">
+                    <h1 class="conocimientos__h1">Back-End</h1>
+                    <div class="conocimientos__iconos">
+                        <div class="conocimientos__boton">
+                            <i class="icon conocimientos__java fab fa-java"></i>
+                            <p class="">JAVA</p>
+                        </div>
+                        <div class="conocimientos__boton">
+                            <i class="icon conocimientos__boot fas fa-leaf"></i>
+                            <p class="">SPRING BOOT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="conocimientos__dba">
+                    <h1 class="conocimientos__h1">Bases de Datos</h1>
+                    <div class="conocimientos__iconos">
+                        <div class="conocimientos__boton">
+                            <i class="icon fas fa-database"></i>
+                            <p class="conocimientos__boton-p">MySQL</p>
+                        </div>
+                        <div class="conocimientos__boton">
+                            
+                            <p class=""><i class="icon fas fa-database"></i>SQL SERVER</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <footer class="footer contenedor">
+        <div class="footer__separador">  
+            <div class="footer__inicio">
+                <div class="footer__titulo">
+                    <i class="fas fa-dragon"></i>
+                    <h1>Villajuan</h1>
+                </div>
+                <p class="footer__inicio-texto blanco">Este es mi portafolio de proyectos donde pondre mis proyectos personales realizados a lo largo de mi carrera profesinal</p>
+            </div>
+            <div class="footer__medio">
+                <div class="footer__centro">
+                    <p class="footer__centro__titulo">PORTAFOLIO</p>
+                    <p class="footer__centro__opcion">Iniciar Sesion</p>
+                    <p class="footer__centro__opcion">Villajuan</p>
+                </div>
+                <div class="footer__centro">
+                    <p class="footer__centro__titulo">PROXIMAMENTE BLOG</p>
+                    <p class="footer__centro__opcion">Desarrolll Web</p>
+                    <p class="footer__centro__opcion">Desarrollo Back-End</p>
+                    <p class="footer__centro__opcion">Desarrollo Back-End</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__redes">
+            <p class="footer__redes-titulo">Mandame un mensaje a mi linkedin</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/ricardo-villajuan/"><i class="linkedin fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/RicardoVillajuan"><i class="git fab fa-github"></i></a>
+                
+            </div>
+        </div>
+    </footer>
+    <div class="derechos">
+        <p class="derechos__paraffo">Copyright&copy; 2021 - Página creada por Villajuan Burillo Ricardo - Todos los derechos reservados</p>
+    </div>
+    <script src="javascript/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+    <script src="javascript/usohamburguer.js"></script>
+    <script src="javascript/archivo.js"></script>
+</body>
+</html>
